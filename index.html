@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Card Market</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Jost:wght@100;400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="card-info">
+        <div class="display">
+            <img class="carta-image" src="" data-id="">
+            <hr class="horizontal-line">
+            </hr>
+            <div class="carousel">
+                <img id="proxima" class="carousel-nav" src="imgs\fill-left.png">
+                <img id="anterior" class="carousel-nav" src="imgs\fill-right.png">
+            </div>
+        </div>
+        <div class="divisao">
+        </div>
+        <div class="content">
+            <div class="card-info-content-section">
+                <ul class="breadcrumb">
+                    <li>Home</li>
+                    <div class="traco-vertical-breadcrumb"></div>
+                    <li>Marketplace: The Gathering</li>
+                    <div class="traco-vertical-breadcrumb"></div>
+                    <li>Busca </li>
+                    <div class="traco-vertical-breadcrumb"></div>
+                    <li>Bazar - Lista de Desejos</li>
+                </ul>
+
+                <div class="edicao-dados">
+                    <div class="edicao-label">
+                        <img class="edicao-icon" src="imgs\edicao-icon.png">
+                        <div class="edicao-label-div">
+                            <p class="edicao-code"></p>
+                            <p class="edicao-name"></p>
+                        </div>
+                    </div>
+                    <div class="edicao-sigla-div">
+                        <div class="edicao-stroke">
+                        </div>
+                        <p class="edicao-sigla">DMR</p>
+                        <img class="seta-down" src="imgs\seta-down.png">
+                    </div>
+                </div>
+
+                <div class="titulo-dados">
+                    <div class="titulo-div">
+                        <p class="titulo-pt"></p>
+                        <p class="titulo-en"></p>
+                    </div>
+                    <div class="icons-buttons">
+                        <div class="icon-coracao">
+                            <img class="img-coracao" src="imgs\coracao.png">
+                        </div>
+                        <div class="icon-reticencias">
+                            <img class="img-reticencias" src="imgs\reticencias.png">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- fim section card-info-content-section-->
+
+            <div class="lista-de-compras-section">
+                <div class="lista-de-compras">
+                    <div class="lista-de-compras-title-div">
+                        <p> Lista de Compras </p>
+                        <div class="icon-interrogacao">
+                            <img class="img-interrogacao" src="imgs\interrogacao.png">
+                        </div>
+                    </div>
+                    <p class="lista-de-compras-subtitle">Add a carta aqui e deixe que a Liga calcule o melhor preço para você!</p>
+                </div>
+                <div class="lista-de-compras-buttons">
+                    <div class="counter-filter">
+
+                        <div class="operadores">
+                            <div class="operador">
+                                <img class="operador-mais-img" src="imgs\mais.png" alt="Botão de adicionar mais 1 item.">
+                            </div>
+                            <p class="quantidade-compra">1</p>
+                            <div class="operador">
+                                <img class="operador-menos-img" src="imgs\menos.png" alt="Botão de remover 1 item">
+                            </div>
+                        </div>
+
+                        <div class="icon-filter">
+                            <img class="icon-img" src="imgs\filter.png">
+                        </div>
+                    </div>
+
+                    <div class="btn-adicionar-mais">
+                        <div class="icon-mais-verde">
+                            <img class="img-mais-verde" src="imgs/mais-verde.png" alt="Ícone de acidionar ao carrinho">
+                        </div>
+                        <p>ADICIONAR NA LISTA</p>
+                    </div>
+                </div>
+            </div>
+            <!-- fim lista-de-compras-section -->
+            <div class="card-chart-section">
+                
+                <div class="detalhes-carta">
+                    <div class="detalhes-titulo">
+                        <p>Detalhes da carta</p>
+                        <p class="ver-tudo">Ver Tudo</p>
+                    </div>
+                    <div class="item-detalhes ">
+                        <p>Cor</p>
+                        <p class="carta-cor">Azul</p>
+                    </div>
+                    <div class="item-detalhes ">
+                        <p>Custo de Mana</p>
+                        <div class="carta-custo-mana">
+                        </div>
+                    </div>
+                    <div class="item-detalhes">
+                        <p>Tipo</p>
+                        <p class="carta-tipo">Mágica Instantânea</p>
+                    </div>
+                </div>
+
+                <div class="preco-medio-marketplace">
+                    <div class="detalhes-titulo">
+                        <div>
+                            Preço Médio no Marketplace
+                            <img class="preco-medio-ajuda" src="imgs/interrogacao.png" alt="ìcone de ajuda">
+                        </div>
+                        <p class="ver-tudo">Ver Tudo</p>
+                    </div>
+                    <div class="item-detalhes">
+                        <div class="dados-marketplace">
+                            <img src="imgs/icone-marketplace.png" alt="Ícone de normal no marketplace">
+                            <p>Normal</p>
+                        </div>
+                        <div class="precos-marketplace">
+                            <div class="preco">
+                                <img src="imgs/rectangle-verde.png" alt="Retângulo verde">
+                                <p id="preco-min" >R$ 6,28</p>
+                            </div>
+                            <div class="preco">
+                                <img src="imgs/rectangle-amarelo.png" alt="Retângulo amarelo">
+                                <p id="preco-medio" > R$ 9,39</p>
+                            </div>
+                            <div class="preco">
+                                <img src="imgs/rectangle-vermelho.png" alt="Retângulo vermelho">
+                                <p id="preco-max" >R$ 14,00</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="listaCompra.js"></script>
+<script src="main.js"></script>
+
+</html>
